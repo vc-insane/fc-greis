@@ -39,11 +39,11 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
   position: fixed;
   top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -10%);
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  color: rgb(14, 0, 144); /* Color del texto */
+  color: rgb(14, 0, 144);
 }
 
 #texto2 {
@@ -54,5 +54,16 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: rgba(5, 65, 118, 0.532); /* Color del texto */
+  color: rgba(5, 65, 118, 0.532);
+}
+
+button#texto1 {
+  background-color: #eec0db;
+  border: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(14, 0, 144);
+  cursor: pointer;
 }

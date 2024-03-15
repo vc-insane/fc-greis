@@ -3,6 +3,8 @@ const SVG_XLINK = "http://www.w3.org/1999/xlink";
 let rid = null;
 let gon = 7;
 
+const boton = document.getElementById('texto1');
+
 const colors = [
   "#ba3763",
   "#d34076",
@@ -63,6 +65,14 @@ class Flower {
     this.parent.appendChild(this.G);
   }
 }
+
+
+
+boton.addEventListener('click', () => {
+  window.location.href = 'galery.html';
+  Frame();
+});
+
 
 
 svg.addEventListener("mousedown", e => {
